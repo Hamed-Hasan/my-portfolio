@@ -2,6 +2,7 @@ import React from 'react';
 import './style.css'
 import hamed from '../../assests/images/hamed-hasan.png'
 import TypeWriter from '../TypeWriter/TypeWriter';
+import { FiDownload } from 'react-icons/fi';
 const Home = () => {
     return (
         <div class="hero min-h-screen bg-black">
@@ -16,7 +17,14 @@ const Home = () => {
             </div>
           
             <p class="py-6 text-white text-left text-xl">I'm a Tunisian based web designer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.</p>
-           
+           <a className='button' href="https://drive.google.com/file/d/1KLz2Fpilwr-sFH-cIaWOIpH9hgErHFGl/view?usp=sharing" target='_blank' download='Resume'>
+             <span>Download Resume</span>
+             <span className='button-icon'>
+
+            <FiDownload/>
+             </span>
+           </a>
+
           </div>
     
             </div>

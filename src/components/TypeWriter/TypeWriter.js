@@ -19,7 +19,7 @@ const TypeWriter = () => {
   
         ]}
         multiTextDelay={1000}
-        typeSpeed={30}
+        typeSpeed={50}
       />
         </div>
     );
