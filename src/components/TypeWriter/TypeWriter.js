@@ -14,8 +14,8 @@ const TypeWriter = () => {
         cursorColor="#3F3D56"
         multiText={[
           "I'M HAMED HASAN",
-          "I'M FULL STACK WEB DEVELOPER",
           "I'M GRAPHIC DESIGNER",
+          "I'M FULL STACK WEB DEVELOPER",
   
         ]}
         multiTextDelay={1000}

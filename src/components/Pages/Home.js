@@ -5,11 +5,11 @@ import TypeWriter from '../TypeWriter/TypeWriter';
 import { FiDownload } from 'react-icons/fi';
 const Home = () => {
     return (
-        <div class="hero min-h-screen bg-black">
+        <div class="hero min-h-screen bg-[#000000e8]">
             <div className="color hidden lg:block"></div>
           
             <div class="hero-content flex-col lg:flex-row">
-          <img  src={hamed} class="w-1/3 rounded-3xl shadow-2xl" />
+          <img  src={hamed} class=" rounded-3xl shadow-2xl" />
           <div className='px-20'>
             <div className='flex items-center'>
               <span className="text-8xl text-amber-500">-</span>
