@@ -1,16 +1,22 @@
 import React from 'react';
 import './style.css'
+import hamed from '../../assests/images/hamed-hasan.png'
+import TypeWriter from '../TypeWriter/TypeWriter';
 const Home = () => {
     return (
         <div class="hero min-h-screen bg-black">
             <div className="color hidden lg:block"></div>
           
             <div class="hero-content flex-col lg:flex-row">
-          <img src="https://api.lorem.space/image/movie?w=260&h=400" class="max-w-sm rounded-lg shadow-2xl" />
-          <div>
-            <h1 class="head text-5xl font-bold">Box Office News!</h1>
-            <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-            <button class="btn btn-primary">Get Started</button>
+          <img  src={hamed} class="w-1/3 rounded-3xl shadow-2xl" />
+          <div className='px-20'>
+            <div className='flex items-center'>
+              <span className="text-8xl text-amber-500">-</span>
+              <TypeWriter/>
+            </div>
+          
+            <p class="py-6 text-white text-left text-xl">I'm a Tunisian based web designer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.</p>
+           
           </div>
     
             </div>
