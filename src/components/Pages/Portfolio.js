@@ -32,7 +32,7 @@ const Portfolio = () => {
         },
     ]
     return (
-        <div className='bg-[#000000e8] py-10 pb-36'>
+        <div className='bg-[#000000e8] py-10 pb-44'>
       <div className="container mx-auto">
       <div className="title-section">
                 <h1>my <span className='text-amber-500'
@@ -55,18 +55,18 @@ const Portfolio = () => {
                     <div class="card front-face">
                        <img src={portfolio1}/>
                     </div>
-                    <div class="card back-face">
+                    <div class="card bg-primary back-face">
                   
                        <div class="info">
-                          <div class="text-md text-center font-bold">
+                          <div class="text-md text-center font-bold text-accent">
                           Manufacture Product
                           </div>
                          <div className='mt-3'>
-                             <span className=' mr-0 p-1 text-sm'>React Js</span>
-                             <span className='p-1 text-sm'>Firebase</span>
-                             <span className='p-1 text-sm'>Node Js</span> <br />
-                             <span className=' p-1 text-sm'>MongoDB</span>
-                             <span className=' p-1 text-sm '>Express Js</span>
+                             <span className=' mr-0 p-1 text-sm text-accent'>React Js</span>
+                             <span className='p-1 text-sm text-accent'>Firebase</span>
+                             <span className='p-1 text-sm text-accent'>Node Js</span> <br />
+                             <span className=' p-1 text-sm text-accent'>MongoDB</span>
+                             <span className=' p-1 text-accent text-sm '>Express Js</span>
                          </div>
                        </div>
                        <ul>
@@ -86,18 +86,18 @@ const Portfolio = () => {
                     <div class="card front-face">
                        <img src={portfolio2}/>
                     </div>
-                    <div class="card back-face">
+                    <div class="card bg-primary back-face">
                   
                        <div class="info">
-                          <div class="text-md text-center font-bold">
+                          <div class="text-md text-center font-bold text-accent">
                           Doctors Appointment
                           </div>
                          <div className='mt-3'>
-                             <span className=' mr-0 p-1 text-sm'>React Js</span>
-                             <span className='p-1 text-sm'>Firebase</span>
-                             <span className='p-1 text-sm'>Node Js</span> <br />
-                             <span className=' p-1 text-sm'>MongoDB</span>
-                             <span className=' p-1 text-sm '>Express Js</span>
+                             <span className=' mr-0 p-1 text-sm text-accent'>React Js</span>
+                             <span className='p-1 text-sm text-accent'>Firebase</span>
+                             <span className='p-1 text-sm text-accent'>Node Js</span> <br />
+                             <span className=' p-1 text-sm text-accent'>MongoDB</span>
+                             <span className=' p-1 text-accent text-sm '>Express Js</span>
                          </div>
                        </div>
                        <ul>
@@ -116,18 +116,17 @@ const Portfolio = () => {
                     <div class="card front-face">
                        <img src={portfolio3}/>
                     </div>
-                    <div class="card back-face">
+                    <div class="card bg-primary back-face">
                   
                        <div class="info">
-                          <div class="text-md text-center font-bold">
+                          <div class="text-md text-accent text-center font-bold">
                           Electronics Product
                           </div>
                          <div className='mt-3'>
-                             <span className=' mr-0 p-1 text-sm'>React Js</span>
-                             <span className='p-1 text-sm'>Firebase</span>
-                             <span className='p-1 text-sm'>Node Js</span> <br />
-                             <span className=' p-1 text-sm'>MongoDB</span>
-                             <span className=' p-1 text-sm '>Express Js</span>
+                             <span className=' mr-0 p-1 text-sm text-accent'>React Js</span>
+                             <span className='p-1 text-accent text-sm '>Node Js</span> <br />
+                             <span className=' p-1 text-sm text-accent'>MongoDB</span>
+                             <span className=' p-1 text-accent text-sm '>Express Js</span>
                          </div>
                        </div>
                        <ul>
@@ -146,15 +145,15 @@ const Portfolio = () => {
                     <div class="card front-face">
                        <img src={portfolio4}/>
                     </div>
-                    <div class="card back-face">
+                    <div class="card bg-primary back-face">
                   
                        <div class="info">
-                          <div class="text-md text-center font-bold">
+                          <div class="text-md text-center font-bold text-accent">
                           Travel Authentication
                           </div>
                          <div className='mt-3'>
-                             <span className=' mr-0 p-1 text-sm'>React Js</span>
-                             <span className='p-1 text-sm'>Firebase</span>
+                             <span className=' mr-0 p-1 text-sm text-accent'>React Js</span>
+                             <span className='p-1 text-sm text-accent'>Firebase</span>
                              
                          </div>
                        </div>
