@@ -10,6 +10,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
+import AnimatedCursor from "react-animated-cursor"
+
 function App() {
 
   useEffect(() => {
@@ -19,7 +21,8 @@ function App() {
   return (
     <div className="App">
       <Header/>
-  
+      <AnimatedCursor  />
+
     <Routes>
       <Route path="/" element={<Home/>} />
       <Route path="about" element={<About/>} />

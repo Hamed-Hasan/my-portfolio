@@ -13,6 +13,7 @@
     "daisyui": "^2.15.2",
     "rc-progress": "^3.3.3",
     "react": "^18.1.0",
+    "react-animated-cursor": "^2.5.1",
     "react-animated-progress-bar": "^1.1.1",
     "react-countup": "^6.2.0",
     "react-dom": "^18.1.0",
