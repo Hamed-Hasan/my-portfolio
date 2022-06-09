@@ -9,6 +9,7 @@ import Contact from './components/Pages/Contact';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 function App() {
 
   useEffect(() => {
@@ -25,6 +26,7 @@ function App() {
       <Route path="portfolio" element={<Portfolio/>} />
       <Route path="contact" element={<Contact/>} />
     </Routes>
+    <ScrollToTop/>
     </div>
   );
 }
