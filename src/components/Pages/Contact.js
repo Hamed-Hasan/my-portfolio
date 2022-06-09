@@ -68,32 +68,40 @@ const Contact = () => {
 </div>
             </div>
             <div class="md:w-3/5 ...">
-            <form className='contactUs' action="" method="post">
+            <form className='contactUs'action="https://formspree.io/f/mgedqyev" method="post">
                 <div class="md:flex items-center mt-12">
                     <div class="w-full md:w-1/2 flex flex-col">
                         <label class="font-semibold leading-none text-gray-300">Name</label>
-                        <input type="text" class="leading-none text-gray-50 p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-gray-800 rounded" />
+                        <input type="text" 
+                        name='name'
+                        class="leading-none text-gray-50 p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-gray-800 rounded" />
                     </div>
                     <div class="w-full md:w-1/2 flex flex-col md:ml-6 md:mt-0 mt-4">
                         <label class="font-semibold leading-none text-gray-300">Email</label>
-                        <input type="email" class="leading-none text-gray-50 p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-gray-800 rounded"/>
+                        <input type="email" 
+                        name='email'
+                        class="leading-none text-gray-50 p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-gray-800 rounded"/>
                     </div>
                 </div>
                 <div class="md:flex items-center mt-8">
                     <div class="w-full flex flex-col">
                         <label class="font-semibold leading-none text-gray-300">Subject</label>
-                        <input type="text" class="leading-none text-gray-50 p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-gray-800 rounded"/>
+                        <input type="text" 
+                        name='subject'
+                        class="leading-none text-gray-50 p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-gray-800 rounded"/>
                     </div>
                     
                 </div>
                 <div>
                     <div class="w-full flex flex-col mt-8">
                         <label class="font-semibold leading-none text-gray-300">Message</label>
-                        <textarea type="text" class="h-40 text-base leading-none text-gray-50 p-3 focus:outline-none focus:border-blue-700 mt-4 bg-gray-800 border-0 rounded"></textarea>
+                        <textarea type="text"
+                        name='message'
+                         class="h-40 text-base leading-none text-gray-50 p-3 focus:outline-none focus:border-blue-700 mt-4 bg-gray-800 border-0 rounded"></textarea>
                     </div>
                 </div>
                 <div class="flex items-center justify-center w-full">
-                <button type='submit' className='button mt-4'  >
+                <button type='submit' className='button my-6'  >
              <span>Send Message</span>
              <span className='button-icon'>
 
