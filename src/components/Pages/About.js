@@ -8,45 +8,88 @@ const About = () => {
     return (
         <div className="bg-[#000000e8] py-10 ">
             <div className="title-section">
-                <h1>About <span className='text-amber-500'>Me</span></h1>
-                <span className='title-bg'>My Skill</span>
+                <h1 
+                data-aos="fade-right"
+                data-aos-duration="2000"
+    data-aos-easing="ease-in-out"
+                >About <span className='text-amber-500'>Me</span></h1>
+                <span className='title-bg'
+                data-aos-duration="1500"
+                data-aos-easing="ease-in-out"
+                data-aos="zoom-in"
+                >My Skill</span>
             </div>
 
             <section class="text-gray-600 body-font">
   <div class="container px-5 py-24 mx-auto">
-      <h2 className='text-4xl text-white text-left font-bold'>PERSONAL INFOS
+      <h2 className='text-4xl text-white text-left font-bold'
+      data-aos="fade-right">PERSONAL INFOS
 </h2>
     <div class="md:flex flex-wrap items-center py-5 text-center">
-      <div className='md:w-1/2'>
+      <div className='md:w-1/2'
+     
+      >
       <div class="flex flex-wrap text-center">
-      <div className='w-1/2'>
+      <div className='w-1/2'
+      
+      
+      data-aos-easing="ease-in-out"
+      data-aos="fade-left">
           <div className='text-md text-left text-slate-400'><span>First Name: </span> <span className='text-white'>Hamed</span></div>
       </div>
-      <div className='w-1/2 my-3'>
+      <div className='w-1/2 my-3'
+      
+      data-aos-duration="500"
+      data-aos-easing="ease-in-out"
+      data-aos="zoom-in">
       <div className='text-md text-left text-slate-400'><span>Last Name: </span> <span className='text-white'>Hasan</span></div>
       </div>
-      <div className='w-1/2 my-3'>
+      <div className='w-1/2 my-3'
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos="zoom-in">
           <div className='text-md text-left text-slate-400'><span>Age: 24 Years</span> <span className='text-white'>Hamed</span></div>
       </div>
-      <div className='w-1/2 my-3'>
+      <div className='w-1/2 my-3'
+        data-aos-duration="1500"
+        data-aos-easing="ease-in-out"
+        data-aos="zoom-in">
       <div className='text-md text-left text-slate-400'><span>Nationality: </span> <span className='text-white'>Bangladesh</span></div>
       </div>
-      <div className='w-1/2 my-3'>
+      <div className='w-1/2 my-3'
+        data-aos-duration="2000"
+        data-aos-easing="ease-in-out"
+        data-aos="zoom-in">
           <div className='text-md text-left text-slate-400'><span>Address: </span> <span className='text-white'>Chittagong</span></div>
       </div>
-      <div className='w-1/2 my-3'>
+      <div className='w-1/2 my-3'
+        data-aos-duration="2500"
+        data-aos-easing="ease-in-out"
+        data-aos="zoom-in">
       <div className='text-md text-left text-slate-400'><span>Freelance: </span> <span className='text-white'>Available</span></div>
       </div>
-      <div className='w-1/2'>
+      <div className='w-1/2'
+        data-aos-duration="3000"
+        data-aos-easing="ease-in-out"
+        data-aos="zoom-in">
           <div className='text-md text-left text-slate-400'><span>Phone: </span> <span className='text-white'>+966 595035008</span></div>
       </div>
-      <div className='w-1/2 my-3'>
+      <div className='w-1/2 my-3'
+        data-aos-duration="3500"
+        data-aos-easing="ease-in-out"
+        data-aos="zoom-in">
       <div className='text-md text-left text-slate-400'><span>Email: </span> <span className='text-white'>hamedhasan422421@gmail.com</span></div>
       </div>
-      <div className='w-1/2'>
+      <div className='w-1/2'
+        data-aos-duration="4000"
+        data-aos-easing="ease-in-out"
+        data-aos="zoom-in">
           <div className='text-md text-left text-slate-400'><span>Present Address: </span> <span className='text-white'>Saudi Arabia, Mecca</span></div>
       </div>
-      <div className='w-1/2'>
+      <div className='w-1/2'
+        data-aos-duration="4500"
+        data-aos-easing="ease-in-out"
+        data-aos="zoom-in">
       <div className='text-sm text-left text-slate-400'><span>Languages: </span> <span className='text-white'>English,Arabic,Bengali,Hindi,Urdu</span></div>
       </div>
     </div>
@@ -54,8 +97,10 @@ const About = () => {
 
 
 
-<label for="my-modal-3" class="button mt-5">
-<span>Download Resume</span>
+<label for="my-modal-3" class="button mt-5"   data-aos-duration="3500"
+       data-aos-easing="ease-in-out"
+       data-aos="fade-left">
+<span>Services</span>
              <span className='button-icon'>
 
             <MdMiscellaneousServices/>
@@ -79,7 +124,10 @@ const About = () => {
 
       <div className='md:w-1/2 mt-9 md:mt-0'>
       <div class="flex flex-wrap text-center">
-      <div className='w-1/2'>
+      <div className='w-1/2'
+        data-aos-duration="1500"
+        data-aos-easing="ease-in-out"
+        data-aos="fade-left">
           <div className='border p-11 m-4 border-slate-400 rounded-md'>
             <h2 className='text-amber-500 text-6xl font-bold'>
                 <CountUp 
@@ -95,7 +143,10 @@ const About = () => {
             </div>
           </div>
       </div>
-      <div className='w-1/2'>
+      <div className='w-1/2'
+        data-aos-duration="2500"
+        data-aos-easing="ease-in-out"
+        data-aos="zoom-in">
           <div className='border p-11 m-4 border-slate-400 rounded-md'>
             <h2 className='text-amber-500 text-6xl font-bold'>
             <CountUp 
@@ -112,7 +163,10 @@ const About = () => {
             </div>
           </div>
       </div>
-      <div className='w-1/2'>
+      <div className='w-1/2'
+        data-aos-duration="3500"
+        data-aos-easing="ease-in-out"
+        data-aos="zoom-in">
           <div className='border p-11 m-4 border-slate-400 rounded-md'>
             <h2 className='text-amber-500 text-6xl font-bold'>
             <CountUp 
@@ -128,7 +182,10 @@ const About = () => {
             </div>
           </div>
       </div>
-      <div className='w-1/2'>
+      <div className='w-1/2'
+        data-aos-duration="4500"
+        data-aos-easing="ease-in-out"
+        data-aos="zoom-in">
           <div className='border p-11 m-4 border-slate-400 rounded-md'>
             <h2 className='text-amber-500 text-6xl font-bold'>
             <CountUp 
