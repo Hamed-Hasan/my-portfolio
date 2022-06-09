@@ -75,7 +75,7 @@
     padding: 80px 0;
 }
 .title-section h1 {
-    font-size: 56px;
+    font-size: 3rem;
     font-weight: 900!important;
     color: #fff;
     text-transform: uppercase;
@@ -83,7 +83,7 @@
 }
 
 .title-bg {
-    font-size: 110px;
+    font-size: 5rem;
     left: 0;
     letter-spacing: 10px;
     line-height: .7;
@@ -168,4 +168,8 @@
     color: #1cc7d0;
     border-color: #1cc7d0;
     background: linear-gradient(375deg, transparent, transparent);
+  }
+
+  .contactUs input,textarea{
+      border-radius: 30px !important;
   }
