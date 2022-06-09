@@ -4,7 +4,10 @@ import { AiFillHome } from 'react-icons/ai';
 import { FaUserGraduate } from 'react-icons/fa';
 import { AiFillMedicineBox } from 'react-icons/ai';
 import { AiFillContacts } from 'react-icons/ai';
+import { Link } from 'react-router-dom';
 const Header = () => {
+
+    
 
     return (
         <div>
@@ -13,19 +16,19 @@ const Header = () => {
                 <ul>
                     <li className='icon-box'>
                 <AiFillHome className='icon'/>
-                <a href="#">Home</a>
+                <Link to='/' >Home</Link>
                     </li>
                     <li className='icon-box'>
                 <FaUserGraduate className='icon'/>
-                <a href="#">About</a>
+                <Link to='/about' >About</Link>
                     </li>
                     <li className='icon-box'>
                 <AiFillMedicineBox  className='icon'/>
-                <a href="#">Portfolio</a>
+                <Link to='/portfolio' >Portfolio</Link>
                     </li>
                     <li className='icon-box'>
                 <AiFillContacts className='icon'/>
-                <a href="#">Contact</a>
+                <Link to='/contact' >Contact</Link>
                     </li>
                 </ul>
             </div>

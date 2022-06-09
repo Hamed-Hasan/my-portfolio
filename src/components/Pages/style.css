@@ -67,3 +67,31 @@
     transform: translateX(0);
     background-color:#FFA001
 }
+
+.title-section {
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    padding: 80px 0;
+}
+.title-section h1 {
+    font-size: 56px;
+    font-weight: 900!important;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.title-bg {
+    font-size: 110px;
+    left: 0;
+    letter-spacing: 10px;
+    line-height: .7;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    text-transform: uppercase;
+    font-weight: 800;
+    transform: translateY(-50%);
+    color: hsla(0,0%,100%,.07);
+}
