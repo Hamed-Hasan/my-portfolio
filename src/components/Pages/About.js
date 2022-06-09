@@ -1,5 +1,8 @@
 import React from 'react';
 import CountUp from 'react-countup';
+import { MdMiscellaneousServices } from 'react-icons/md';
+import Services from './Services';
+
 const About = () => {
     return (
         <div className="bg-[#000000e8] py-10 ">
@@ -46,6 +49,31 @@ const About = () => {
       <div className='text-sm text-left text-slate-400'><span>Languages: </span> <span className='text-white'>English,Arabic,Bengali,Hindi,Urdu</span></div>
       </div>
     </div>
+
+
+
+
+<label for="my-modal-3" class="button mt-5">
+<span>Download Resume</span>
+             <span className='button-icon'>
+
+            <MdMiscellaneousServices/>
+             </span>
+</label>
+
+
+<input type="checkbox" id="my-modal-3" class="modal-toggle" />
+<div class="modal bg-black">
+<label for="my-modal-3" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+
+  <div class="modal-box w-11/12 max-w-7xl bg-slate-700">
+   <Services/>
+  </div>
+</div>
+
+
+
+    
       </div>
 
       <div className='md:w-1/2 mt-9 md:mt-0'>
