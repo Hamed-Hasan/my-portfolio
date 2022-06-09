@@ -5,7 +5,7 @@
     transform: rotate(-15deg);
     left: -83%;
     top: -50%;
-    background-color: #FFA001;
+    /* background-color: #FFA001; */
 
 }
 
@@ -30,11 +30,11 @@
     padding: 16px 70px 16px 35px;
     font-size: 15px;
     font-weight: 600;
-    color: #fff;
+    /* color: #fff; */
     background-color: transparent;
     outline: none!important;
     cursor: pointer!important;
-    border: 1px solid #FFA001;
+    /* border: 1px solid #FFA001; */
     left:0;
 }
 .button:before {
@@ -61,11 +61,11 @@
     font-size: 19px;
     color: #fff;
     border-radius: 50%;
-    background-color:#FFA001
+    /* background-color:#FFA001 */
 }
 .button:hover:before {
     transform: translateX(0);
-    background-color:#FFA001
+    /* background-color:#FFA001 */
 }
 
 .title-section {

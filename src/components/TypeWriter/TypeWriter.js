@@ -1,6 +1,6 @@
 import React from 'react';
 import TypeWriterEffect from 'react-typewriter-effect';
-const TypeWriter = () => {
+const TypeWriter = ({text}) => {
     return (
         <div>
              <TypeWriterEffect

@@ -32,7 +32,7 @@ const Portfolio = () => {
         },
     ]
     return (
-        <div className='bg-[#000000e8] py-10 h-screen '>
+        <div className='bg-[#000000e8] py-10 pb-36'>
       <div className="container mx-auto">
       <div className="title-section">
                 <h1>my <span className='text-amber-500'

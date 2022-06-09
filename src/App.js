@@ -20,9 +20,9 @@ function App() {
 
   return (
     <div className="App">
-      <Header/>
-      <AnimatedCursor  />
-
+      
+      {/* <AnimatedCursor  /> */}
+<Header>
     <Routes>
       <Route path="/" element={<Home/>} />
       <Route path="about" element={<About/>} />
@@ -30,6 +30,7 @@ function App() {
       <Route path="contact" element={<Contact/>} />
     </Routes>
     <ScrollToTop/>
+    </Header>
     </div>
   );
 }

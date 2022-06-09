@@ -9,12 +9,13 @@ module.exports = {
           primary: "#72B626",
           secondary: "#656565",
           accent: "#ffffff",
-          neutral: "#F3F4F6",
+          neutral: "#171717",
           "base-100": "#ffffff",
           info: "#98A8DD",
           success: "#1BBB70",
           warning: "#DF7E07",
           error: "#FA5C5C",
+          pureWhite: "#ffff"
         },
       },
       {
@@ -28,6 +29,9 @@ module.exports = {
           success: "#1BBB70",
           warning: "#F59E0B",
           error: "#FB7185",
+          pureWhite: "#ffff"
+
+
         },
       },
     ],
