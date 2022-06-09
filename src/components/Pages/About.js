@@ -1,6 +1,7 @@
 import React from 'react';
 import CountUp from 'react-countup';
 import { MdMiscellaneousServices } from 'react-icons/md';
+import MySkill from './MySkill';
 import Services from './Services';
 
 const About = () => {
@@ -150,6 +151,8 @@ const About = () => {
     </div>
   </div>
 </section>
+
+<MySkill/>
         </div>
     );
 };

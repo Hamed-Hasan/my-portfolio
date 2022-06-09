@@ -173,3 +173,7 @@
   .contactUs input,textarea{
       border-radius: 30px !important;
   }
+
+  .max {
+    width: 168px;
+}
