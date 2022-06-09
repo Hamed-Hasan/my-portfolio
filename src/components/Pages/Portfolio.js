@@ -35,13 +35,23 @@ const Portfolio = () => {
         <div className='bg-[#000000e8] py-10 h-screen '>
       <div className="container mx-auto">
       <div className="title-section">
-                <h1>my <span className='text-amber-500'>Portfolio</span></h1>
-                <span className='title-bg'>works</span>
+                <h1>my <span className='text-amber-500'
+                  data-aos-duration="1500"
+                  data-aos-easing="ease-in-out"
+                  data-aos="zoom-in">Portfolio</span></h1>
+                <span className='title-bg'
+                  data-aos-duration="3500"
+                  data-aos-easing="ease-in-out"
+                  data-aos="fade-right">works</span>
             </div>
 
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5'
+            >
            
-                    <div class="wrapper">
+                    <div class="wrapper"
+                      data-aos-duration="1500"
+                      data-aos-easing="ease-in-out"
+                      data-aos="zoom-in">
                     <div class="card front-face">
                        <img src={portfolio1}/>
                     </div>
@@ -69,7 +79,10 @@ const Portfolio = () => {
                     </div>
                  </div>
                  
-                    <div class="wrapper">
+                    <div class="wrapper"
+                      data-aos-duration="2500"
+                      data-aos-easing="ease-in-out"
+                      data-aos="zoom-in">
                     <div class="card front-face">
                        <img src={portfolio2}/>
                     </div>
@@ -96,7 +109,10 @@ const Portfolio = () => {
             </ul>
                     </div>
                  </div>
-                    <div class="wrapper">
+                    <div class="wrapper"
+                      data-aos-duration="3500"
+                      data-aos-easing="ease-in-out"
+                      data-aos="zoom-in">
                     <div class="card front-face">
                        <img src={portfolio3}/>
                     </div>
@@ -123,7 +139,10 @@ const Portfolio = () => {
             </ul>
                     </div>
                  </div>
-                    <div class="wrapper">
+                    <div class="wrapper"
+                      data-aos-duration="4500"
+                      data-aos-easing="ease-in-out"
+                      data-aos="zoom-in">
                     <div class="card front-face">
                        <img src={portfolio4}/>
                     </div>

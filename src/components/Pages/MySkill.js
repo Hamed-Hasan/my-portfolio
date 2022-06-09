@@ -10,7 +10,7 @@ const MySkill = () => {
             <h1 className='my-6 text-white text-4xl font-bold'
               data-aos-duration="1500"
               data-aos-easing="ease-in-out"
-              data-aos="fade-left">My Skill</h1>
+              data-aos="fade-right">My Skill</h1>
 
 <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4'>
     <div className='max'
