@@ -11,6 +11,7 @@ import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import AnimatedCursor from "react-animated-cursor"
+import Blogs from './components/Pages/Blogs';
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
       <Route path="/" element={<Home/>} />
       <Route path="about" element={<About/>} />
       <Route path="portfolio" element={<Portfolio/>} />
+      <Route path="blog" element={<Blogs/>} />
       <Route path="contact" element={<Contact/>} />
     </Routes>
     <ScrollToTop/>

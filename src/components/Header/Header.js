@@ -3,6 +3,7 @@ import './Header.css'
 import { AiFillHome } from 'react-icons/ai';
 import { FaUserGraduate } from 'react-icons/fa';
 import { AiFillMedicineBox } from 'react-icons/ai';
+import { FaBlog } from 'react-icons/fa';
 import { AiFillContacts } from 'react-icons/ai';
 import { Link, NavLink } from 'react-router-dom';
 const Header = ({children}) => {
@@ -35,6 +36,10 @@ const Header = ({children}) => {
                     <li className='icon-box'>
                 <AiFillMedicineBox  className='icon'/>
                 <Link to='/portfolio' >Portfolio</Link>
+                    </li>
+                    <li className='icon-box'>
+                <FaBlog  className='icon'/>
+                <Link to='/blog' >Blog</Link>
                     </li>
                     <li className='icon-box'>
                 <AiFillContacts className='icon'/>
