@@ -309,3 +309,7 @@ display:none
     width: 170px;
   }
 }
+
+.rb-tabs-items .mr-3 {
+	margin-right: 0 !important;
+}
