@@ -3,11 +3,13 @@ import { TbMessage2Share } from 'react-icons/tb';
 import { BsGithub } from 'react-icons/bs';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { FaFacebookF } from 'react-icons/fa';
+import ReactHelmet from '../ReactHelmet/ReactHelmet';
 const Contact = () => {
     return (
         <div className='bg-[#000000e8] py-10 pb-24'>
+             <ReactHelmet title="Home"/>
       <div className="container mx-auto px-5  md:px-20">
-      {/* <div className="title-section">
+      <div className="title-section">
                 <h1  data-aos-duration="1500"
        data-aos-easing="ease-in-out"
        data-aos="zoom-in">GET IN <span className='text-amber-500'>TOUCH</span></h1>
@@ -15,7 +17,7 @@ const Contact = () => {
                   data-aos-duration="4500"
                   data-aos-easing="ease-in-out"
                   data-aos="zoom-in">CONTACT</span>
-            </div> */}
+            </div>
 
             <div  class="md:flex flex-wrap items-center py-5">
             <div class="md:w-2/5 ...">

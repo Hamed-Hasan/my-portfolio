@@ -1,6 +1,7 @@
 import React from 'react';
 import CountUp from 'react-countup';
 import { MdMiscellaneousServices } from 'react-icons/md';
+import ReactHelmet from '../ReactHelmet/ReactHelmet';
 import Education from './Education';
 import MySkill from './MySkill';
 import Services from './Services';
@@ -8,6 +9,7 @@ import Services from './Services';
 const About = () => {
     return (
         <div className="bg-[#000000e8] py-10 ">
+           <ReactHelmet title="About"/>
             <div className="title-section">
                 <h1 
                 data-aos="fade-right"

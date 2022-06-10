@@ -1,5 +1,6 @@
 import React from 'react';
 import { CountdownCircleTimer } from 'react-countdown-circle-timer';
+import ReactHelmet from '../ReactHelmet/ReactHelmet';
 
 
 
@@ -38,6 +39,7 @@ const Blogs = () => {
     return (
        <div>
             <div className="title-section">
+            <ReactHelmet title="Home"/>
                 <h1 className='text-primary'>up coming <span className='text-amber-500'
                   data-aos-duration="1500"
                   data-aos-easing="ease-in-out"

@@ -3,9 +3,11 @@ import './style.css'
 import hamed from '../../assests/images/hamed-hasan.png'
 import TypeWriter from '../TypeWriter/TypeWriter';
 import { FiDownload } from 'react-icons/fi';
+import ReactHelmet from '../ReactHelmet/ReactHelmet'
 const Home = () => {
     return (
         <div class="hero min-h-screen bg-accent">
+          <ReactHelmet title="Home"/>
             <div className="color bg-primary hidden lg:block"></div>
           
             <div class="hero-content flex-col lg:flex-row">

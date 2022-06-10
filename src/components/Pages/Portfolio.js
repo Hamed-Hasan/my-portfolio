@@ -25,6 +25,7 @@ import hpp from '../../assests/images/hpp.png'
 import ema from '../../assests/images/ema.png'
 
 import { Link } from 'react-router-dom';
+import ReactHelmet from '../ReactHelmet/ReactHelmet';
 
 const Portfolio = () => {
 
@@ -60,7 +61,7 @@ const Portfolio = () => {
 
     return (
         <div className='bg-accent py-10 pb-44'>
-
+ <ReactHelmet title="Portfolio"/>
 
       <div className="container mx-auto">
       <div className="title-section">
