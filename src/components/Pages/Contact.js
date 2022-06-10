@@ -7,7 +7,7 @@ import ReactHelmet from '../ReactHelmet/ReactHelmet';
 const Contact = () => {
     return (
         <div className='bg-[#000000e8] py-10 pb-24'>
-             <ReactHelmet title="Home"/>
+             <ReactHelmet title="Contact"/>
       <div className="container mx-auto px-5  md:px-20">
       <div className="title-section">
                 <h1  data-aos-duration="1500"

@@ -39,7 +39,7 @@ const Blogs = () => {
     return (
        <div>
             <div className="title-section">
-            <ReactHelmet title="Home"/>
+            <ReactHelmet title="Blogs"/>
                 <h1 className='text-primary'>up coming <span className='text-amber-500'
                   data-aos-duration="1500"
                   data-aos-easing="ease-in-out"
