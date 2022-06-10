@@ -8,6 +8,7 @@ import portfolio3 from '../../assests/images/portfolio3.png'
 import portfolio4 from '../../assests/images/portfolio4.png'
 import p1 from '../../assests/images/p1.png'
 import d2 from '../../assests/images/d2.png'
+import e1 from '../../assests/images/e1.png'
 import { Link } from 'react-router-dom';
 
 const Portfolio = () => {
@@ -116,35 +117,33 @@ const Portfolio = () => {
                        </div>
                     </div>
                  </div>
-                    <div class="wrapper"
-                      data-aos-duration="3500"
+                 <div class="wrapper"
+                      data-aos-duration="1500"
                       data-aos-easing="ease-in-out"
                       data-aos="zoom-in">
                     <div class="card front-face">
-                       <img src={portfolio3}/>
+                       <img src={e1}/>
+             
                     </div>
                     <div class="card bg-primary back-face">
-                  
+                    <img src={e1}/>
                        <div class="info">
-                          <div class="text-md text-accent text-center font-bold">
+                          <div class="text-3xl text-center font-bold text-accent mb-12">
                           Electronics Product
                           </div>
-                         <div className='mt-3'>
-                             <span className=' mr-0 p-1 text-sm text-accent'>React Js</span>
-                             <span className='p-1 text-accent text-sm '>Node Js</span> <br />
-                             <span className=' p-1 text-sm text-accent'>MongoDB</span>
-                             <span className=' p-1 text-accent text-sm '>Express Js</span>
-                         </div>
-                       </div>
+                        
                        <ul>
-               <a href="https://electronics-zone.web.app/" target='_blank'>Live </a>
-               <a href="https://github.com/Hamed-Hasan/assignment-eleven-mongodb-client" target="_blank">Client</a>
-               <a href="https://github.com/Hamed-Hasan/assignment-eleven-mongodb-server" target="_blank">Server</a>
+               <a href="https://manufacture-development.web.app/" target='_blank'>Live </a>
+               <a href="https://github.com/Hamed-Hasan/assignment-twelve-mongodb-client" target="_blank">Client</a>
+               <a href="https://github.com/Hamed-Hasan/assignment-twelve-mongodb-server" target="_blank">Server</a>
+               <Link to='/elect'>Details</Link>
                
               
             </ul>
+                       </div>
                     </div>
                  </div>
+               
                     <div class="wrapper"
                       data-aos-duration="4500"
                       data-aos-easing="ease-in-out"
