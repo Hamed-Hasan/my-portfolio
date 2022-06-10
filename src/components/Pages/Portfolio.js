@@ -9,6 +9,12 @@ import portfolio4 from '../../assests/images/portfolio4.png'
 import p1 from '../../assests/images/p1.png'
 import d2 from '../../assests/images/d2.png'
 import e1 from '../../assests/images/e1.png'
+import t1 from '../../assests/images/t1.png'
+import devP from '../../assests/images/developer-portfolio.png'
+import simple from '../../assests/images/simple-portfolio.png'
+import port from '../../assests/images/port.png'
+import panda from '../../assests/images/panda.png'
+import peng from '../../assests/images/peng.png'
 import { Link } from 'react-router-dom';
 
 const Portfolio = () => {
@@ -107,9 +113,9 @@ const Portfolio = () => {
                           </div>
                         
                        <ul>
-               <a href="https://manufacture-development.web.app/" target='_blank'>Live </a>
-               <a href="https://github.com/Hamed-Hasan/assignment-twelve-mongodb-client" target="_blank">Client</a>
-               <a href="https://github.com/Hamed-Hasan/assignment-twelve-mongodb-server" target="_blank">Server</a>
+               <a href="https://doctors-appointments.netlify.app/" target='_blank'>Live </a>
+               <a href="https://github.com/Hamed-Hasan/doctors-portal-client" target="_blank">Client</a>
+               <a href="https://github.com/Hamed-Hasan/doctors-portal-server" target="_blank">Server</a>
                <Link to='/doctor'>Details</Link>
                
               
@@ -133,9 +139,9 @@ const Portfolio = () => {
                           </div>
                         
                        <ul>
-               <a href="https://manufacture-development.web.app/" target='_blank'>Live </a>
-               <a href="https://github.com/Hamed-Hasan/assignment-twelve-mongodb-client" target="_blank">Client</a>
-               <a href="https://github.com/Hamed-Hasan/assignment-twelve-mongodb-server" target="_blank">Server</a>
+               <a href="https://electronics-zone.web.app/" target='_blank'>Live </a>
+               <a href="https://github.com/Hamed-Hasan/assignment-eleven-mongodb-client" target="_blank">Client</a>
+               <a href="https://github.com/Hamed-Hasan/assignment-eleven-mongodb-server" target="_blank">Server</a>
                <Link to='/elect'>Details</Link>
                
               
@@ -149,10 +155,10 @@ const Portfolio = () => {
                       data-aos-easing="ease-in-out"
                       data-aos="zoom-in">
                     <div class="card front-face">
-                       <img src={portfolio4}/>
+                       <img src={t1}/>
                     </div>
                     <div class="card bg-primary back-face">
-                  
+                    <img src={t1}/>
                        <div class="info">
                           <div class="text-md text-center font-bold text-accent">
                           Travel Authentication
@@ -164,8 +170,158 @@ const Portfolio = () => {
                          </div>
                        </div>
                        <ul>
-               <a href="https://electronics-zone.web.app/" target='_blank'>Live </a>
+               <a href="https://first-class-travel.netlify.app/" target='_blank'>Live </a>
                <a href="https://github.com/Hamed-Hasan/assignment-ten-firebase" target="_blank">Client</a>
+            
+               
+              
+            </ul>
+                    </div>
+                 </div>
+               
+                    <div class="wrapper"
+                      data-aos-duration="4500"
+                      data-aos-easing="ease-in-out"
+                      data-aos="zoom-in">
+                    <div class="card front-face">
+                       <img src={devP}/>
+                    </div>
+                    <div class="card bg-primary back-face">
+                    <img src={devP}/>
+                       <div class="info">
+                          <div class="text-md text-center font-bold text-accent">
+                         Developer Portfolio
+                          </div>
+                         <div className='mt-3'>
+                             <span className=' mr-0 p-1 text-sm text-accent'>HTML</span>
+                             <span className='p-1 text-sm text-accent'>CSS</span>
+                             <span className=' mr-0 p-1 text-sm text-accent'>BOOTSTRAP</span>
+                             <span className='p-1 text-sm text-accent'>JS</span>
+                             
+                         </div>
+                       </div>
+                       <ul>
+               <a href="https://landing-pages-portfolio.netlify.app/" target='_blank'>Live </a>
+               <a href="https://github.com/Hamed-Hasan/portfolio-website" target="_blank">Client</a>
+            
+               
+              
+            </ul>
+                    </div>
+                 </div>
+                    <div class="wrapper"
+                      data-aos-duration="4500"
+                      data-aos-easing="ease-in-out"
+                      data-aos="zoom-in">
+                    <div class="card front-face">
+                       <img src={simple}/>
+                    </div>
+                    <div class="card bg-primary back-face">
+                    <img src={simple}/>
+                       <div class="info">
+                          <div class="text-md text-center font-bold text-accent">
+                         Simple Portfolio
+                          </div>
+                         <div className='mt-3'>
+                             <span className=' mr-0 p-1 text-sm text-accent'>HTML</span>
+                             <span className='p-1 text-sm text-accent'>CSS</span>
+                             <span className='p-1 text-sm text-accent'>JS</span>
+                             
+                         </div>
+                       </div>
+                       <ul>
+               <a href="https://simple-portfolio-pages.netlify.app" target='_blank'>Live </a>
+               <a href="https://github.com/Hamed-Hasan/portfolio-project" target="_blank">Client</a>
+            
+               
+              
+            </ul>
+                    </div>
+                 </div>
+                    <div class="wrapper"
+                      data-aos-duration="4500"
+                      data-aos-easing="ease-in-out"
+                      data-aos="zoom-in">
+                    <div class="card front-face">
+                       <img src={port}/>
+                    </div>
+                    <div class="card bg-primary back-face">
+                    <img src={port}/>
+                       <div class="info">
+                          <div class="text-md text-center font-bold text-accent">
+                         Simple Page
+                          </div>
+                         <div className='mt-3'>
+                             <span className=' mr-0 p-1 text-sm text-accent'>HTML</span>
+                             <span className='p-1 text-sm text-accent'>CSS</span>
+                      
+                             
+                         </div>
+                       </div>
+                       <ul>
+               <a href="https://hamed-hasan.github.io/portfolio-blog/" target='_blank'>Live </a>
+               <a href="https://github.com/Hamed-Hasan/portfolio-blog" target="_blank">Client</a>
+            
+               
+              
+            </ul>
+                    </div>
+                 </div>
+                    <div class="wrapper"
+                      data-aos-duration="4500"
+                      data-aos-easing="ease-in-out"
+                      data-aos="zoom-in">
+                    <div class="card front-face">
+                       <img src={panda}/>
+                    </div>
+                    <div class="card bg-primary back-face">
+                    <img src={panda}/>
+                       <div class="info">
+                          <div class="text-md text-center font-bold text-accent">
+                        Panda Commerce
+                          </div>
+                         <div className='mt-3'>
+                             <span className=' mr-0 p-1 text-sm text-accent'>HTML</span>
+                             <span className='p-1 text-sm text-accent'>CSS</span>
+                             <span className='p-1 text-sm text-accent'>BOOTSTRAP</span>
+                      
+                             
+                         </div>
+                       </div>
+                       <ul>
+               <a href="https://hamed-hasan.github.io/panda-commerce" target='_blank'>Live </a>
+               <a href="https://github.com/Hamed-Hasan/panda-commerce" target="_blank">Client</a>
+            
+               
+              
+            </ul>
+                    </div>
+                 </div>
+                 
+                    <div class="wrapper"
+                      data-aos-duration="4500"
+                      data-aos-easing="ease-in-out"
+                      data-aos="zoom-in">
+                    <div class="card front-face">
+                       <img src={peng}/>
+                    </div>
+                    <div class="card bg-primary back-face">
+                    <img src={peng}/>
+                       <div class="info">
+                          <div class="text-md text-center font-bold text-accent">
+                        Panda Penguins
+                          </div>
+                         <div className='mt-3'>
+                             <span className=' mr-0 p-1 text-sm text-accent'>HTML</span>
+                             <span className='p-1 text-sm text-accent'>CSS</span>
+                             <span className='p-1 text-sm text-accent'>BOOTSTRAP</span>
+                      
+                             
+                         </div>
+                       </div>
+                       <ul>
+               <a href="https://hamed-hasan.github.io/panda-commerce" target='_blank'>Live </a>
+               <a href="https://github.com/Hamed-Hasan/panda-commerce" target="_blank">Client</a>
             
                
               
