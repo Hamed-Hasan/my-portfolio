@@ -556,23 +556,375 @@ const Portfolio = () => {
             </div>
             </Tab>
             <Tab title="PORTFOLIO" className="mr-3">
-                <div className="mt-3">
-                    Tab 2 content
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
+               
+               
+                    <div class="wrapper"
+                      data-aos-duration="4500"
+                      data-aos-easing="ease-in-out"
+                      data-aos="zoom-in">
+                    <div class="card front-face">
+                       <img src={devP}/>
+                    </div>
+                    <div class="card bg-primary back-face">
+                    <img src={devP}/>
+                       <div class="info">
+                          <div class="text-md text-center font-bold text-accent">
+                         Developer Portfolio
+                          </div>
+                         <div className='mt-3'>
+                             <span className=' mr-0 p-1 text-sm text-accent'>HTML</span>
+                             <span className='p-1 text-sm text-accent'>CSS</span>
+                             <span className=' mr-0 p-1 text-sm text-accent'>BOOTSTRAP</span>
+                             <span className='p-1 text-sm text-accent'>JS</span>
+                             
+                         </div>
+                       </div>
+                       <ul>
+               <a href="https://landing-pages-portfolio.netlify.app/" target='_blank'>Live </a>
+               <a href="https://github.com/Hamed-Hasan/portfolio-website" target="_blank">Client</a>
+            
+               
+              
+            </ul>
+                    </div>
+                 </div>
+                    <div class="wrapper"
+                      data-aos-duration="4500"
+                      data-aos-easing="ease-in-out"
+                      data-aos="zoom-in">
+                    <div class="card front-face">
+                       <img src={simple}/>
+                    </div>
+                    <div class="card bg-primary back-face">
+                    <img src={simple}/>
+                       <div class="info">
+                          <div class="text-md text-center font-bold text-accent">
+                         Simple Portfolio
+                          </div>
+                         <div className='mt-3'>
+                             <span className=' mr-0 p-1 text-sm text-accent'>HTML</span>
+                             <span className='p-1 text-sm text-accent'>CSS</span>
+                             <span className='p-1 text-sm text-accent'>JS</span>
+                             
+                         </div>
+                       </div>
+                       <ul>
+               <a href="https://simple-portfolio-pages.netlify.app" target='_blank'>Live </a>
+               <a href="https://github.com/Hamed-Hasan/portfolio-project" target="_blank">Client</a>
+            
+               
+              
+            </ul>
+                    </div>
+                 </div>
+                <div class="wrapper"
+                      data-aos-duration="4500"
+                      data-aos-easing="ease-in-out"
+                      data-aos="zoom-in">
+                    <div class="card front-face">
+                       <img src={port}/>
+                    </div>
+                    <div class="card bg-primary back-face">
+                    <img src={port}/>
+                       <div class="info">
+                          <div class="text-md text-center font-bold text-accent">
+                         Simple Page
+                          </div>
+                         <div className='mt-3'>
+                             <span className=' mr-0 p-1 text-sm text-accent'>HTML</span>
+                             <span className='p-1 text-sm text-accent'>CSS</span>
+                      
+                             
+                         </div>
+                       </div>
+                       <ul>
+               <a href="https://hamed-hasan.github.io/portfolio-blog/" target='_blank'>Live </a>
+               <a href="https://github.com/Hamed-Hasan/portfolio-blog" target="_blank">Client</a>
+            
+               
+              
+            </ul>
+                    </div>
+                 </div>
                 </div>
             </Tab>
             <Tab title="SHOP" className="mr-3">
-                <div className="mt-3">
-                    Tab 3 content
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
+                <div class="wrapper"
+                      data-aos-duration="4500"
+                      data-aos-easing="ease-in-out"
+                      data-aos="zoom-in">
+                    <div class="card front-face">
+                       <img src={panda}/>
+                    </div>
+                    <div class="card bg-primary back-face">
+                    <img src={panda}/>
+                       <div class="info">
+                          <div class="text-md text-center font-bold text-accent">
+                        Panda Commerce
+                          </div>
+                         <div className='mt-3'>
+                             <span className=' mr-0 p-1 text-sm text-accent'>HTML</span>
+                             <span className='p-1 text-sm text-accent'>CSS</span>
+                             <span className='p-1 text-sm text-accent'>BOOTSTRAP</span>
+                      
+                             
+                         </div>
+                       </div>
+                       <ul>
+               <a href="https://hamed-hasan.github.io/panda-commerce" target='_blank'>Live </a>
+               <a href="https://github.com/Hamed-Hasan/panda-commerce" target="_blank">Client</a>
+            
+               
+              
+            </ul>
+                    </div>
+                 </div>
+                 
+                    <div class="wrapper"
+                      data-aos-duration="4500"
+                      data-aos-easing="ease-in-out"
+                      data-aos="zoom-in">
+                    <div class="card front-face">
+                       <img src={peng}/>
+                    </div>
+                    <div class="card bg-primary back-face">
+                    <img src={peng}/>
+                       <div class="info">
+                          <div class="text-md text-center font-bold text-accent">
+                        Panda Penguins
+                          </div>
+                         <div className='mt-3'>
+                             <span className=' mr-0 p-1 text-sm text-accent'>HTML</span>
+                             <span className='p-1 text-sm text-accent'>CSS</span>
+                             <span className='p-1 text-sm text-accent'>BOOTSTRAP</span>
+                      
+                             
+                         </div>
+                       </div>
+                       <ul>
+               <a href="https://hamed-hasan.github.io/panda-commerce" target='_blank'>Live </a>
+               <a href="https://github.com/Hamed-Hasan/panda-commerce" target="_blank">Client</a>
+            
+               
+              
+            </ul>
+                    </div>
+                 </div>
+
+                 <div class="wrapper"
+                      data-aos-duration="4500"
+                      data-aos-easing="ease-in-out"
+                      data-aos="zoom-in">
+                    <div class="card front-face">
+                       <img src={gear}/>
+                    </div>
+                    <div class="card bg-primary back-face">
+                    <img src={gear}/>
+                       <div class="info">
+                          <div class="text-md text-center font-bold text-accent">
+                        Influence Gear
+                          </div>
+                         <div className='mt-3'>
+                             <span className=' mr-0 p-1 text-sm text-accent'>HTML</span>
+                             <span className='p-1 text-sm text-accent'>CSS</span>
+                             <span className='p-1 text-sm text-accent'>BOOTSTRAP</span>
+                      
+                             
+                         </div>
+                       </div>
+                       <ul>
+               <a href="https://hamed-hasan.github.io/assignment-project/index.html" target='_blank'>Live </a>
+               <a href="https://github.com/Hamed-Hasan/assignment-one-brand-new-website" target="_blank">Client</a>
+            
+               
+              
+            </ul>
+                    </div>
+                 </div>
+
+                 <div class="wrapper"
+                      data-aos-duration="4500"
+                      data-aos-easing="ease-in-out"
+                      data-aos="zoom-in">
+                    <div class="card front-face">
+                       <img src={ph}/>
+                    </div>
+                    <div class="card bg-primary back-face">
+                    <img src={ph}/>
+                       <div class="info">
+                          <div class="text-md text-center font-bold text-accent">
+                    Phone Hunter
+                          </div>
+                         <div className='mt-3'>
+                             <span className=' mr-0 p-1 text-sm text-accent'>HTML</span>
+                             <span className='p-1 text-sm text-accent'>CSS</span>
+                             <span className='p-1 text-sm text-accent'>BOOTSTRAP</span>
+                             <span className='p-1 text-sm text-accent'>Javascript</span>
+                      
+                             
+                         </div>
+                       </div>
+                       <ul>
+               <a href="https://phone-hunter-assignment.netlify.app/">Live </a>
+               <a href="https://github.com/Hamed-Hasan/assignment-five-money-moster" target="_blank">Client</a>
+            
+               
+              
+            </ul>
+                    </div>
+                 </div>
+                    <div class="wrapper"
+                      data-aos-duration="4500"
+                      data-aos-easing="ease-in-out"
+                      data-aos="zoom-in">
+                    <div class="card front-face">
+                       <img src={sh}/>
+                    </div>
+                    <div class="card bg-primary back-face">
+                    <img src={sh}/>
+                       <div class="info">
+                          <div class="text-md text-center font-bold text-accent">
+                Super Shop
+                          </div>
+                         <div className='mt-3'>
+                             <span className=' mr-0 p-1 text-sm text-accent'>HTML</span>
+                             <span className='p-1 text-sm text-accent'>CSS</span>
+                             <span className='p-1 text-sm text-accent'>BOOTSTRAP</span>
+                             <span className='p-1 text-sm text-accent'>Javascript</span>
+                      
+                             
+                         </div>
+                       </div>
+                       <ul>
+               <a href="https://my-super-shop.netlify.app/">Live </a>
+               <a href="https://github.com/Hamed-Hasan/assignment-eight-super-shop" target="_blank">Client</a>
+            
+               
+              
+            </ul>
+                    </div>
+                 </div>
                 </div>
             </Tab>
             <Tab title="APP" className="mr-3">
-                <div className="mt-3">
-                    Tab 4 content
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
+                <div class="wrapper"
+                      data-aos-duration="1500"
+                      data-aos-easing="ease-in-out"
+                      data-aos="zoom-in">
+                    <div class="card front-face">
+                       <img src={p1}/>
+             
+                    </div>
+                    <div class="card bg-primary back-face">
+                    <img src={p1}/>
+                       <div class="info">
+                          <div class="text-3xl text-center font-bold text-accent mb-12">
+                          Manufacture Product
+                          </div>
+                        
+                       <ul>
+               <a href="https://manufacture-development.web.app/" target='_blank'>Live </a>
+               <a href="https://github.com/Hamed-Hasan/assignment-twelve-mongodb-client" target="_blank">Client</a>
+               <a href="https://github.com/Hamed-Hasan/assignment-twelve-mongodb-server" target="_blank">Server</a>
+               <Link to='/manufacture'>Details</Link>
+               
+              
+            </ul>
+                       </div>
+                    </div>
+                 </div>
+                 
+                 <div class="wrapper"
+                      data-aos-duration="1500"
+                      data-aos-easing="ease-in-out"
+                      data-aos="zoom-in">
+                    <div class="card front-face">
+                       <img src={d2}/>
+             
+                    </div>
+                    <div class="card bg-primary back-face">
+                    <img src={d2}/>
+                       <div class="info">
+                          <div class="text-3xl text-center font-bold text-accent mb-12">
+                          Doctors Appointment
+                          </div>
+                        
+                       <ul>
+               <a href="https://doctors-appointments.netlify.app/" target='_blank'>Live </a>
+               <a href="https://github.com/Hamed-Hasan/doctors-portal-client" target="_blank">Client</a>
+               <a href="https://github.com/Hamed-Hasan/doctors-portal-server" target="_blank">Server</a>
+               <Link to='/doctor'>Details</Link>
+               
+              
+            </ul>
+                       </div>
+                    </div>
+                 </div>
+                 <div class="wrapper"
+                      data-aos-duration="1500"
+                      data-aos-easing="ease-in-out"
+                      data-aos="zoom-in">
+                    <div class="card front-face">
+                       <img src={e1}/>
+             
+                    </div>
+                    <div class="card bg-primary back-face">
+                    <img src={e1}/>
+                       <div class="info">
+                          <div class="text-3xl text-center font-bold text-accent mb-12">
+                          Electronics Product
+                          </div>
+                        
+                       <ul>
+               <a href="https://electronics-zone.web.app/" target='_blank'>Live </a>
+               <a href="https://github.com/Hamed-Hasan/assignment-eleven-mongodb-client" target="_blank">Client</a>
+               <a href="https://github.com/Hamed-Hasan/assignment-eleven-mongodb-server" target="_blank">Server</a>
+               <Link to='/elect'>Details</Link>
+               
+              
+            </ul>
+                       </div>
+                    </div>
+                 </div>
                 </div>
             </Tab>
             <Tab title="WEB" className="mr-3">
-                <div className="mt-3">
-                    Tab 5 content
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
+                <div class="wrapper"
+                      data-aos-duration="4500"
+                      data-aos-easing="ease-in-out"
+                      data-aos="zoom-in">
+                    <div class="card front-face">
+                       <img src={hpp}/>
+                    </div>
+                    <div class="card bg-primary back-face">
+                    <img src={hpp}/>
+                       <div class="info">
+                          <div class="text-md text-center font-bold text-accent">
+                Happy Shopping
+                          </div>
+                         <div className='mt-3'>
+                             <span className=' mr-0 p-1 text-sm text-accent'>HTML</span>
+                             <span className='p-1 text-sm text-accent'>CSS</span>
+                             <span className='p-1 text-sm text-accent'>BOOTSTRAP</span>
+                             <span className='p-1 text-sm text-accent'>Javascript</span>
+                             <span className='p-1 text-sm text-accent'>React Js</span>
+                      
+                             
+                         </div>
+                       </div>
+                       <ul>
+               <a href="https://react-router-shop.netlify.app//">Live </a>
+               <a href="https://github.com/Hamed-Hasan/assignment-nine-react-router" target="_blank">Client</a>
+            
+               
+              
+            </ul>
+                    </div>
+                 </div>
                 </div>
             </Tab>
         </Tabs>
