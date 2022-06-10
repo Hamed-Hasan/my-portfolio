@@ -22,6 +22,7 @@ import cal from '../../assests/images/cal.png'
 import ph from '../../assests/images/ph.png'
 import sh from '../../assests/images/sh.png'
 import hpp from '../../assests/images/hpp.png'
+import ema from '../../assests/images/ema.png'
 
 import { Link } from 'react-router-dom';
 
@@ -551,6 +552,39 @@ const Portfolio = () => {
             </ul>
                     </div>
                  </div>
+                    <div class="wrapper"
+                      data-aos-duration="4500"
+                      data-aos-easing="ease-in-out"
+                      data-aos="zoom-in">
+                    <div class="card front-face">
+                       <img src={ema}/>
+                    </div>
+                    <div class="card bg-primary back-face">
+                    <img src={ema}/>
+                       <div class="info">
+                          <div class="text-md text-center font-bold text-accent">
+                Ema Jhons
+                          </div>
+                         <div className='mt-3'>
+                             <span className=' mr-0 p-1 text-sm text-accent'>HTML</span>
+                             <span className='p-1 text-sm text-accent'>CSS</span>
+                             <span className='p-1 text-sm text-accent'>BOOTSTRAP</span>
+                             <span className='p-1 text-sm text-accent'>Javascript</span>
+                             <span className='p-1 text-sm text-accent'> Js</span>
+                             <span className='p-1 text-sm text-accent'>React Js</span>
+                      
+                             
+                         </div>
+                       </div>
+                       <ul>
+               <a href="https://ema-jhons.netlify.app/shop://react-router-shop.netlify.app//">Live </a>
+               <a href="https://github.com/Hamed-Hasan/ema-john-auth-59" target="_blank">Client</a>
+            
+               
+              
+            </ul>
+                    </div>
+                 </div>
                  
                
             </div>
@@ -651,6 +685,40 @@ const Portfolio = () => {
             </Tab>
             <Tab title="SHOP" className="mr-3">
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
+                <div class="wrapper"
+                      data-aos-duration="4500"
+                      data-aos-easing="ease-in-out"
+                      data-aos="zoom-in">
+                    <div class="card front-face">
+                       <img src={ema}/>
+                    </div>
+                    <div class="card bg-primary back-face">
+                    <img src={ema}/>
+                       <div class="info">
+                          <div class="text-md text-center font-bold text-accent">
+                Ema Jhons
+                          </div>
+                         <div className='mt-3'>
+                             <span className=' mr-0 p-1 text-sm text-accent'>HTML</span>
+                             <span className='p-1 text-sm text-accent'>CSS</span>
+                             <span className='p-1 text-sm text-accent'>BOOTSTRAP</span>
+                             <span className='p-1 text-sm text-accent'>Javascript</span>
+                             <span className='p-1 text-sm text-accent'> Js</span>
+                             <span className='p-1 text-sm text-accent'>React Js</span>
+                      
+                             
+                         </div>
+                       </div>
+                       <ul>
+               <a href="https://ema-jhons.netlify.app/shop://react-router-shop.netlify.app//">Live </a>
+               <a href="https://github.com/Hamed-Hasan/ema-john-auth-59" target="_blank">Client</a>
+            
+               
+              
+            </ul>
+                    </div>
+                 </div>
+                 
                 <div class="wrapper"
                       data-aos-duration="4500"
                       data-aos-easing="ease-in-out"
