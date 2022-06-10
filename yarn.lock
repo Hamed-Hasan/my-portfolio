@@ -8965,6 +8965,11 @@
     "regenerator-runtime" "^0.13.9"
     "whatwg-fetch" "^3.6.2"
 
+"react-best-tabs@^1.2.0":
+  "integrity" "sha512-OHWro8sZOgcO30I0cSzlh5/gzWvwZ+eUBn1BHnw/uucxGXp8Na8Bu5T1RgaGsjRUF5wqvNZObFKu+AshTaq4EA=="
+  "resolved" "https://registry.npmjs.org/react-best-tabs/-/react-best-tabs-1.2.0.tgz"
+  "version" "1.2.0"
+
 "react-countdown-circle-timer@^3.0.9":
   "integrity" "sha512-2rE2NklqgtArbvM9RVR3NctiKQ8+lY8PEjUZ2S1pKowD8CmaXUGqIaCbFBcygYH2aZQs9qPIQA49Z+9Jc2TOiQ=="
   "resolved" "https://registry.npmjs.org/react-countdown-circle-timer/-/react-countdown-circle-timer-3.0.9.tgz"
@@ -9144,7 +9149,7 @@
     "style-loader" "^1.0.0"
     "webpack" "^4.41.2"
 
-"react@*", "react@^16 || ^17 || ^18", "react@^17.0.0 || ^18.0.0", "react@^18.0.0", "react@^18.1.0", "react@>= 16", "react@>= 16.3.0", "react@>=16.6.0", "react@>=16.8", "react@>=16.8.0", "react@>=16.9.0":
+"react@*", "react@^16 || ^17 || ^18", "react@^17.0.0 || ^18.0.0", "react@^18.0.0", "react@^18.1.0", "react@>= 16", "react@>= 16.3.0", "react@>=16.6.0", "react@>=16.8", "react@>=16.8.0", "react@>=16.9.0", "react@>16.0.0":
   "integrity" "sha512-4oL8ivCz5ZEPyclFQXaNksK3adutVS8l2xzZU0cqEFrE9Sb7fC0EFK5uEk74wIreL1DERyjvsU915j1pcT2uEQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.1.0.tgz"
   "version" "18.1.0"

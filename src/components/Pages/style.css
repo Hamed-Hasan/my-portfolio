@@ -256,7 +256,17 @@ display:none
 }
 
 
+.rb-tabs .rb-tabs-header .rb-tabs-items {
 
+  border-bottom: 0;
+}
+.rb-tabs .rb-tabs-header .rb-tabs-items .rb-tabs-item.active {
+  font-weight: 500;
+  border-bottom: 2px solid #F89E00;
+}
 
-
+.rb-tabs-content {
+  width: 100%;
+  margin-top: 26px;
+}
 

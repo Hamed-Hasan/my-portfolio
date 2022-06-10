@@ -1,4 +1,7 @@
+
 import React from 'react';
+import Tabs, {Tab} from 'react-best-tabs';
+import 'react-best-tabs/dist/index.css';
 import portfolio1 from '../../assests/images/portfolio1.png'
 import portfolio2 from '../../assests/images/portfolio2.png'
 import portfolio3 from '../../assests/images/portfolio3.png'
@@ -32,7 +35,7 @@ const Portfolio = () => {
         },
     ]
     return (
-        <div className='bg-[#000000e8] py-10 pb-44'>
+        <div className='bg-accent py-10 pb-44'>
       <div className="container mx-auto">
       <div className="title-section">
                 <h1>my <span className='text-amber-500'
@@ -45,9 +48,11 @@ const Portfolio = () => {
                   data-aos="fade-right">works</span>
             </div>
 
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5'
-            >
-           
+       
+            <Tabs activeTab="1" className='grid grid-cols-1 gap-3 justify-items-center mt-2' activityClassName="bg-success" onClick={(event, tab) => console.log(event, tab)}>
+            <Tab title="ALL" className="mr-3">
+              
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5'>
                     <div class="wrapper"
                       data-aos-duration="1500"
                       data-aos-easing="ease-in-out"
@@ -169,6 +174,30 @@ const Portfolio = () => {
                  
                
             </div>
+            </Tab>
+            <Tab title="PORTFOLIO" className="mr-3">
+                <div className="mt-3">
+                    Tab 2 content
+                </div>
+            </Tab>
+            <Tab title="SHOP" className="mr-3">
+                <div className="mt-3">
+                    Tab 3 content
+                </div>
+            </Tab>
+            <Tab title="APP" className="mr-3">
+                <div className="mt-3">
+                    Tab 4 content
+                </div>
+            </Tab>
+            <Tab title="WEB" className="mr-3">
+                <div className="mt-3">
+                    Tab 5 content
+                </div>
+            </Tab>
+        </Tabs>
+
+
       </div>
         </div>
     );
