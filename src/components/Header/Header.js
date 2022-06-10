@@ -69,6 +69,12 @@ const Header = ({children}) => {
                 <AiFillMedicineBox  className='text-white text-xl'/>
                     </li>
                 </NavLink>
+                <NavLink to='/blog' >
+                    <li className='bg-slate-800 p-4 cursor-pointer hover:bg-amber-500 transition-all rounded-full'>
+                
+                <FaBlog  className='text-white text-xl'/>
+                    </li>
+                </NavLink>
                 <NavLink to='/contact' >
                     <li className='bg-slate-800 p-4 cursor-pointer hover:bg-amber-500 transition-all rounded-full'>
                
