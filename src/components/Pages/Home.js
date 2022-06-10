@@ -27,7 +27,7 @@ const Home = () => {
             data-aos-duration="1000"
     data-aos-easing="ease-in-out"
             >I'm a Tunisian based web designer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.</p>
-           <a className='button border-2  border-primary hover:before:bg-primary hover:text-pureWhite mb-28 lg:md-0' href="https://drive.google.com/file/d/1KLz2Fpilwr-sFH-cIaWOIpH9hgErHFGl/view?usp=sharing" download=''
+           <a className='button border-2  border-primary hover:before:bg-primary hover:text-pureWhite mb-28 lg:md-0' href="https://drive.google.com/file/d/1KLz2Fpilwr-sFH-cIaWOIpH9hgErHFGl/view?usp=sharing" target="_blank" download=''
            
            data-aos="zoom-in"
            data-aos-duration="1000"
