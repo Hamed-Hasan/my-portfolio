@@ -21,6 +21,7 @@ import con from '../../assests/images/conv.png'
 import cal from '../../assests/images/cal.png'
 import ph from '../../assests/images/ph.png'
 import sh from '../../assests/images/sh.png'
+import hpp from '../../assests/images/hpp.png'
 
 import { Link } from 'react-router-dom';
 
@@ -512,6 +513,38 @@ const Portfolio = () => {
                        <ul>
                <a href="https://my-super-shop.netlify.app/">Live </a>
                <a href="https://github.com/Hamed-Hasan/assignment-eight-super-shop" target="_blank">Client</a>
+            
+               
+              
+            </ul>
+                    </div>
+                 </div>
+                    <div class="wrapper"
+                      data-aos-duration="4500"
+                      data-aos-easing="ease-in-out"
+                      data-aos="zoom-in">
+                    <div class="card front-face">
+                       <img src={hpp}/>
+                    </div>
+                    <div class="card bg-primary back-face">
+                    <img src={hpp}/>
+                       <div class="info">
+                          <div class="text-md text-center font-bold text-accent">
+                Happy Shopping
+                          </div>
+                         <div className='mt-3'>
+                             <span className=' mr-0 p-1 text-sm text-accent'>HTML</span>
+                             <span className='p-1 text-sm text-accent'>CSS</span>
+                             <span className='p-1 text-sm text-accent'>BOOTSTRAP</span>
+                             <span className='p-1 text-sm text-accent'>Javascript</span>
+                             <span className='p-1 text-sm text-accent'>React Js</span>
+                      
+                             
+                         </div>
+                       </div>
+                       <ul>
+               <a href="https://react-router-shop.netlify.app//">Live </a>
+               <a href="https://github.com/Hamed-Hasan/assignment-nine-react-router" target="_blank">Client</a>
             
                
               
