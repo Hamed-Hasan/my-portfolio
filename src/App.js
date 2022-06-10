@@ -14,6 +14,7 @@ import AnimatedCursor from "react-animated-cursor"
 import Blogs from './components/Pages/Blogs';
 import Manufacture from './components/Pages/Details/Manufacture';
 import NotFound from './components/Pages/NotFound/NotFound';
+import Doctors from './components/Pages/Details/Doctors';
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
       <Route path="blog" element={<Blogs/>} />
       <Route path="contact" element={<Contact/>} />
       <Route path="manufacture" element={<Manufacture/>} />
+      <Route path="doctor" element={<Doctors/>} />
       <Route path="*" element={<NotFound/>} />
     </Routes>
     <ScrollToTop/>
