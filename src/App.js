@@ -12,6 +12,8 @@ import { useEffect } from 'react';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import AnimatedCursor from "react-animated-cursor"
 import Blogs from './components/Pages/Blogs';
+import Manufacture from './components/Pages/Details/Manufacture';
+import NotFound from './components/Pages/NotFound/NotFound';
 
 function App() {
 
@@ -30,6 +32,8 @@ function App() {
       <Route path="portfolio" element={<Portfolio/>} />
       <Route path="blog" element={<Blogs/>} />
       <Route path="contact" element={<Contact/>} />
+      <Route path="manufacture" element={<Manufacture/>} />
+      <Route path="*" element={<NotFound/>} />
     </Routes>
     <ScrollToTop/>
     </Header>

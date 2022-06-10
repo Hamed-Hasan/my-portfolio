@@ -6,6 +6,9 @@ import portfolio1 from '../../assests/images/portfolio1.png'
 import portfolio2 from '../../assests/images/portfolio2.png'
 import portfolio3 from '../../assests/images/portfolio3.png'
 import portfolio4 from '../../assests/images/portfolio4.png'
+import p1 from '../../assests/images/p1.png'
+import { Link } from 'react-router-dom';
+
 const Portfolio = () => {
 
     const projects = [
@@ -34,8 +37,14 @@ const Portfolio = () => {
             _id: 4
         },
     ]
+
+
+
+
     return (
         <div className='bg-accent py-10 pb-44'>
+
+
       <div className="container mx-auto">
       <div className="title-section">
                 <h1>my <span className='text-amber-500'
@@ -52,35 +61,31 @@ const Portfolio = () => {
             <Tabs activeTab="1" className='grid grid-cols-1 gap-3 justify-items-center mt-2' activityClassName="bg-success" onClick={(event, tab) => console.log(event, tab)}>
             <Tab title="ALL" className="mr-3">
               
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
                     <div class="wrapper"
                       data-aos-duration="1500"
                       data-aos-easing="ease-in-out"
                       data-aos="zoom-in">
                     <div class="card front-face">
-                       <img src={portfolio1}/>
+                       <img src={p1}/>
+             
                     </div>
                     <div class="card bg-primary back-face">
-                  
+                    <img src={p1}/>
                        <div class="info">
-                          <div class="text-md text-center font-bold text-accent">
+                          <div class="text-3xl text-center font-bold text-accent mb-12">
                           Manufacture Product
                           </div>
-                         <div className='mt-3'>
-                             <span className=' mr-0 p-1 text-sm text-accent'>React Js</span>
-                             <span className='p-1 text-sm text-accent'>Firebase</span>
-                             <span className='p-1 text-sm text-accent'>Node Js</span> <br />
-                             <span className=' p-1 text-sm text-accent'>MongoDB</span>
-                             <span className=' p-1 text-accent text-sm '>Express Js</span>
-                         </div>
-                       </div>
+                        
                        <ul>
                <a href="https://manufacture-development.web.app/" target='_blank'>Live </a>
                <a href="https://github.com/Hamed-Hasan/assignment-twelve-mongodb-client" target="_blank">Client</a>
                <a href="https://github.com/Hamed-Hasan/assignment-twelve-mongodb-server" target="_blank">Server</a>
+               <Link to='/manufacture'>Details</Link>
                
               
             </ul>
+                       </div>
                     </div>
                  </div>
                  
@@ -97,13 +102,7 @@ const Portfolio = () => {
                           <div class="text-md text-center font-bold text-accent">
                           Doctors Appointment
                           </div>
-                         <div className='mt-3'>
-                             <span className=' mr-0 p-1 text-sm text-accent'>React Js</span>
-                             <span className='p-1 text-sm text-accent'>Firebase</span>
-                             <span className='p-1 text-sm text-accent'>Node Js</span> <br />
-                             <span className=' p-1 text-sm text-accent'>MongoDB</span>
-                             <span className=' p-1 text-accent text-sm '>Express Js</span>
-                         </div>
+                      
                        </div>
                        <ul>
                <a href="https://doctors-appointments.netlify.app/" target='_blank'>Live </a>
@@ -203,4 +202,9 @@ const Portfolio = () => {
     );
 };
 
+
+
+
 export default Portfolio;
+
+
