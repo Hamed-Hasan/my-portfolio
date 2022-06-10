@@ -15,6 +15,7 @@ import simple from '../../assests/images/simple-portfolio.png'
 import port from '../../assests/images/port.png'
 import panda from '../../assests/images/panda.png'
 import peng from '../../assests/images/peng.png'
+import brand from '../../assests/images/brand.png'
 import { Link } from 'react-router-dom';
 
 const Portfolio = () => {
@@ -322,6 +323,36 @@ const Portfolio = () => {
                        <ul>
                <a href="https://hamed-hasan.github.io/panda-commerce" target='_blank'>Live </a>
                <a href="https://github.com/Hamed-Hasan/panda-commerce" target="_blank">Client</a>
+            
+               
+              
+            </ul>
+                    </div>
+                 </div>
+                    <div class="wrapper"
+                      data-aos-duration="4500"
+                      data-aos-easing="ease-in-out"
+                      data-aos="zoom-in">
+                    <div class="card front-face">
+                       <img src={brand}/>
+                    </div>
+                    <div class="card bg-primary back-face">
+                    <img src={brand}/>
+                       <div class="info">
+                          <div class="text-md text-center font-bold text-accent">
+                        Brand New
+                          </div>
+                         <div className='mt-3'>
+                             <span className=' mr-0 p-1 text-sm text-accent'>HTML</span>
+                             <span className='p-1 text-sm text-accent'>CSS</span>
+                             <span className='p-1 text-sm text-accent'>BOOTSTRAP</span>
+                      
+                             
+                         </div>
+                       </div>
+                       <ul>
+               <a href="https://hamed-hasan.github.io/assignment-project/index.html" target='_blank'>Live </a>
+               <a href="https://github.com/Hamed-Hasan/assignment-one-brand-new-website" target="_blank">Client</a>
             
                
               
