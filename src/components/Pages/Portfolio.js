@@ -390,6 +390,36 @@ const Portfolio = () => {
             </ul>
                     </div>
                  </div>
+                    <div class="wrapper"
+                      data-aos-duration="4500"
+                      data-aos-easing="ease-in-out"
+                      data-aos="zoom-in">
+                    <div class="card front-face">
+                       <img src={con}/>
+                    </div>
+                    <div class="card bg-primary back-face">
+                    <img src={con}/>
+                       <div class="info">
+                          <div class="text-md text-center font-bold text-accent">
+                     Convention
+                          </div>
+                         <div className='mt-3'>
+                             <span className=' mr-0 p-1 text-sm text-accent'>HTML</span>
+                             <span className='p-1 text-sm text-accent'>CSS</span>
+                             <span className='p-1 text-sm text-accent'>BOOTSTRAP</span>
+                      
+                             
+                         </div>
+                       </div>
+                       <ul>
+               <a href="https://convention-assignment.netlify.app/" target='_blank'>Live </a>
+               <a href="https://github.com/Hamed-Hasan/assignment-three-convention" target="_blank">Client</a>
+            
+               
+              
+            </ul>
+                    </div>
+                 </div>
                  
                
             </div>
