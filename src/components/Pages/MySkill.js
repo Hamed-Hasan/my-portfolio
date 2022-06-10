@@ -5,14 +5,14 @@ import ProgressBar from 'react-animated-progress-bar';
 const MySkill = () => {
    
     return (
-       <div className="container mx-auto hidden lg:block">
+       <div className="">
             <div className='py-20'>
             <h1 className='my-6 text-white text-4xl font-bold'
               data-aos-duration="1500"
               data-aos-easing="ease-in-out"
               data-aos="fade-right">My Skill</h1>
 
-<div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4'>
+<div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
     <div className='max'
       data-aos-duration="1500"
       data-aos-easing="ease-in-out"

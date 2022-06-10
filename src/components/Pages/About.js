@@ -1,6 +1,7 @@
 import React from 'react';
 import CountUp from 'react-countup';
 import { MdMiscellaneousServices } from 'react-icons/md';
+import Education from './Education';
 import MySkill from './MySkill';
 import Services from './Services';
 
@@ -25,19 +26,15 @@ const About = () => {
       <h2 className='text-4xl text-white text-left font-bold'
       data-aos="fade-right">PERSONAL INFOS
 </h2>
-    <div class="md:flex flex-wrap items-center py-5 text-center">
-      <div className='md:w-1/2'
-     
-      >
+    <div class="md:flex flex-wrap items-center  py-5 text-center">
+      <div className='md:w-1/2  hidden md:block  mt-0 lg:mt-32'>
       <div class="flex flex-wrap text-center">
-      <div className='w-1/2'
-      
-      
+      <div className='w-1/2 '    
       data-aos-easing="ease-in-out"
       data-aos="fade-left">
           <div className='text-md text-left text-slate-400'><span>First Name: </span> <span className='text-white'>Hamed</span></div>
       </div>
-      <div className='w-1/2 my-3'
+      <div className='w-1/2 my-3 '
       
       data-aos-duration="500"
       data-aos-easing="ease-in-out"
@@ -48,7 +45,7 @@ const About = () => {
         data-aos-duration="1000"
         data-aos-easing="ease-in-out"
         data-aos="zoom-in">
-          <div className='text-md text-left text-slate-400'><span>Age: 24 Years</span> <span className='text-white'>Hamed</span></div>
+          <div className='text-md text-left text-slate-400'><span>Age: 24 Years</span></div>
       </div>
       <div className='w-1/2 my-3'
         data-aos-duration="1500"
@@ -94,19 +91,16 @@ const About = () => {
       </div>
     </div>
 
+    <label for="my-modal-3" className='button mt-8 border-2 border-primary hover:before:bg-primary hover:text-pureWhite mb-28 lg:md-0'
+           data-aos="zoom-in"
+           data-aos-duration="1000"
+           >
+             <span className='text-neutral'>Services</span>
+             <span className='button-icon bg-primary'>
 
-
-
-<label for="my-modal-3" class="button mt-5"   data-aos-duration="3500"
-       data-aos-easing="ease-in-out"
-       data-aos="fade-left">
-<span>Services</span>
-             <span className='button-icon'>
-
-            <MdMiscellaneousServices/>
+             <MdMiscellaneousServices/>
              </span>
-</label>
-
+           </label>
 
 <input type="checkbox" id="my-modal-3" class="modal-toggle" />
 <div class="modal bg-black">
@@ -118,13 +112,11 @@ const About = () => {
 </div>
 
 
-
-    
       </div>
 
       <div className='md:w-1/2 mt-9 md:mt-0'>
       <div class="flex flex-wrap text-center">
-      <div className='w-1/2'
+      <div className='md:w-1/2'
         data-aos-duration="1500"
         data-aos-easing="ease-in-out"
         data-aos="fade-left">
@@ -143,7 +135,7 @@ const About = () => {
             </div>
           </div>
       </div>
-      <div className='w-1/2'
+      <div className='md:w-1/2'
         data-aos-duration="2500"
         data-aos-easing="ease-in-out"
         data-aos="zoom-in">
@@ -163,7 +155,7 @@ const About = () => {
             </div>
           </div>
       </div>
-      <div className='w-1/2'
+      <div className='md:w-1/2'
         data-aos-duration="3500"
         data-aos-easing="ease-in-out"
         data-aos="zoom-in">
@@ -182,7 +174,7 @@ const About = () => {
             </div>
           </div>
       </div>
-      <div className='w-1/2'
+      <div className='md:w-1/2'
         data-aos-duration="4500"
         data-aos-easing="ease-in-out"
         data-aos="zoom-in">
@@ -210,6 +202,7 @@ const About = () => {
 </section>
 
 <MySkill/>
+<Education/>
         </div>
     );
 };

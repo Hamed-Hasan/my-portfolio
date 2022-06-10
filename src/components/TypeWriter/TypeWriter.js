@@ -8,7 +8,8 @@ const TypeWriter = ({text}) => {
           
           color: '#FFA001',
           fontWeight: 700,
-          fontSize: '3.5em',
+          fontSize: '23px',
+          
         }}
         startDelay={2000}
         cursorColor="#3F3D56"

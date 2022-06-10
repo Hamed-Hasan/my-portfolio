@@ -5,9 +5,9 @@ import { FaLinkedinIn } from 'react-icons/fa';
 import { FaFacebookF } from 'react-icons/fa';
 const Contact = () => {
     return (
-        <div className='bg-[#000000e8] py-10'>
-      <div className="container mx-auto px-0 md:px-20">
-      <div className="title-section">
+        <div className='bg-[#000000e8] py-10 pb-24'>
+      <div className="container mx-auto px-5  md:px-20">
+      {/* <div className="title-section">
                 <h1  data-aos-duration="1500"
        data-aos-easing="ease-in-out"
        data-aos="zoom-in">GET IN <span className='text-amber-500'>TOUCH</span></h1>
@@ -15,7 +15,7 @@ const Contact = () => {
                   data-aos-duration="4500"
                   data-aos-easing="ease-in-out"
                   data-aos="zoom-in">CONTACT</span>
-            </div>
+            </div> */}
 
             <div  class="md:flex flex-wrap items-center py-5">
             <div class="md:w-2/5 ...">
@@ -120,15 +120,16 @@ const Contact = () => {
                     </div>
                 </div>
                 <div class="flex items-center justify-center w-full">
-                <button type='submit' className='button my-6'    data-aos-duration="5500"
+                <button type='submit' className='contact-button border-2  border-primary hover:before:bg-primary  my-6'    data-aos-duration="5500"
        data-aos-easing="ease-in-out"
        data-aos="zoom-in">
              <span>Send Message</span>
-             <span className='button-icon'>
+             <span className='contact-button-icon'>
 
             <TbMessage2Share/>
              </span>
            </button>
+           
                 </div>
             </form>
             </div>
